@@ -1,11 +1,10 @@
 <img src="https://raw.githubusercontent.com/cloudbrain/cloudbrain/master/docs/images/cb-logo-low-res.png" alt="Banner" style="width: 40px;"/>
 
-CloudBrain is a platform for real-time sensor data analysis and visualization. 
-
 # Status
 [![Build Status](https://travis-ci.org/cloudbrain/cloudbrain.svg?branch=master)](https://travis-ci.org/cloudbrain/cloudbrain)
 
 # Features
+CloudBrain is a platform for real-time sensor data analysis and visualization.
 - **Stream sensor data** in a unified format.
 - **Store sensor data** in a central database.
 - **Analyze sensor data** to find patterns.
@@ -14,21 +13,23 @@ CloudBrain is a platform for real-time sensor data analysis and visualization.
 ![features](https://raw.githubusercontent.com/cloudbrain/cloudbrain/master/docs/images/features.png)
 
 # Using CloudBrain
+
 ## Setup
-For your changes to take effect immediately, if you want to *edit* the code:
-```
-python setup.py develop --user
-```
+* Run: `pip install . --user`
+* If you plan to *edit* the code, make sure to use the `-e` switch: `pip 
+install -e . --user`
 
-Otherwise, if you just want to *use* CloudBrain:
-```
-python setup.py install --user
-```
-
+## Optional
+Optional CloudBrain modules can be installed:
+* Muse source module: `pip install .[muse] --user` _(Python `3.*` only)_
 ## Run the tests
 ```
 python setup.py test
 ```
+
+## Examples
+See `README.md` in `cloudbrain/examples` for more information about how to use
+ and chain CloudBrain modules.
 
 ## More docs
 For more details on to setup and use CloudBrain, refer to the [wiki](https://github.com/cloudbrain/cloudbrain/wiki).

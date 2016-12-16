@@ -8,7 +8,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 def _print_callback(unsed_ch, unsed_method, unsed_properties, body):
-    print "==> %s\n" % body
+    print("==> %s\n" % body)
 
 
 
@@ -21,9 +21,7 @@ class StdoutSink(ModuleInterface):
 
 
     def start(self):
-
-        for i in range(len(self.subscribers)):
-            for subscriber in self.subscribers:
-                for metric_buffer in subscriber.metric_buffers.values():
-                    _LOGGER.info('Subscribing to %s' % metric_buffer.name)
-                    subscriber.subscribe(metric_buffer.name, _print_callback)
+        for subscriber in self.subscribers:
+            for metric_buffer in subscriber.metric_buffers.values():
+                _LOGGER.info('Subscribing to %s' % metric_buffer.name)
+                subscriber.subscribe(metric_buffer.name, _print_callback)
