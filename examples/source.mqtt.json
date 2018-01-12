@@ -1,12 +1,12 @@
 {
   "modules": [
     {
-      "name": "MuseSource",
-      "package": "cloudbrain.modules.sources.muse",
+      "name": "MQTTConverterSource",
+      "package": "cloudbrain.modules.sources.mqtt",
       "options": {
-        "ip": "127.0.0.1",
-        "port": 9090,
-        "start_muse_io": false
+        "mqtt_routing_key": "YOUR_ROUTING_KEY",
+        "username": "YOUR_EMAIL",
+        "password": "YOUR_PASSWORD"
       },
       "publishers": [
         {

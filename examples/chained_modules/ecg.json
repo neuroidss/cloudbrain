@@ -12,10 +12,8 @@
           "name": "PikaPublisher",
           "package": "cloudbrain.publishers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
@@ -43,10 +41,8 @@
           "name": "PikaSubscriber",
           "package": "cloudbrain.subscribers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
@@ -63,10 +59,8 @@
           "name": "PikaPublisher",
           "package": "cloudbrain.publishers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
@@ -92,10 +86,8 @@
           "name": "PikaSubscriber",
           "package": "cloudbrain.subscribers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
@@ -111,10 +103,8 @@
           "name": "PikaPublisher",
           "package": "cloudbrain.publishers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
@@ -148,10 +138,8 @@
           "name": "PikaSubscriber",
           "package": "cloudbrain.subscribers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
@@ -167,10 +155,8 @@
           "name": "PikaPublisher",
           "package": "cloudbrain.publishers.rabbitmq",
           "options": {
-            "rabbitmq_address": "localhost",
-            "rabbitmq_user": "guest",
-            "rabbitmq_pwd": "guest",
-            "rabbitmq_vhost": "/"
+            "rabbitmq_user": "YOUR_EMAIL",
+            "rabbitmq_pwd": "YOUR_PASSWORD"
           },
           "base_routing_key": "some_unique_key",
           "metrics": [
